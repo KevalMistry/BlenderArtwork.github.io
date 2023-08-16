@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+body{
+    width: auto;
+    margin: 0px;
+    padding: 0;
+    background-color: white;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.header{
+    width: 100%;
+    background-color: black;
+}
+.header img{
+    width: 100%;
+    transition: ease-in-out 0.8s;
+}
+.header img:hover{
+    transition: ease-in-out 0.8s;   
+}
+.topnav{
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    margin-top: 0px;
+}
+.topnav a{
+    display: inline-block;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 20px;
+    padding-right: 7px;
+    padding-left: 7px;
+    transition: ease-in-out 0.8s;
+    text-decoration: none;
+}
+.topnav a.active{
+    background-color: green;
+    margin: 0;
+}
+.topnav a:hover{
+    color: red;
+    transition: ease-in-out 0.8s;
+}
+.box{
+    box-shadow:  0px 0px 30px 1px black;
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+    margin-left: 260px;
+    transition: ease-in-out 0.8s;
+    margin-bottom: 50px;
+    border-radius: 0px;
+    border-radius: 10px;
+}
+.box div{  
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+.box div video{
+    width: 100%;
+    border-radius: 10px;
+}
+.box button{
+    font-family: 'Black Han Sans', sans-serif;
+    width: 100%;
+    margin-top: 360px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.box div p{
+    font-size: 19px;
+    color: white;
+    font-family: 'Borel', cursive;
+    margin-left:10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: default;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 430px;
+}
+.footer p{
+    font-family: 'Rubik Distressed', cursive;
+    text-align: center;
+    font-size: 125px;
+    color: white;
+    cursor: default;
+}
+.footer button{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    font-family: 'Borel', cursive;
+    font-size: 30px;
+    border: 2px solid white;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+.footer button:hover{
+    background-color: white;
+    color: black;
+}
+    
+.footer h2{
+    color: white;
+    font-family: 'Borel', cursive;
+    text-align: center;
+    margin-bottom: 19px;
+    margin-top: 0px;    
+    cursor: default;
+}
